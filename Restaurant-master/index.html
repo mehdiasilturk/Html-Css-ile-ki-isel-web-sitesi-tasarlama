@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Kişisel Web Sitesi</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Mehdi Asiltürk</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">Hoşgeldiniz</a></li>
+                            <li><a class="color_animation" href="#story">Hakkında</a></li>
+                            <li><a class="color_animation" href="#pricing">Programlama dilleri</a></li>                            
+                            <li><a class="color_animation" href="#bread">Siber Güvenlik</a></li>
+                            <li><a class="color_animation" href="#featured">Özellikler</a></li>
+                            <li><a class="color_animation" href="#reservation">Rezervasyon</a></li>
+                            <li><a class="color_animation" href="#contact">Adres Ve İletişim</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+         
+        <div id="top" class="box">
+            <img src="images/mehdi.jpg" width="242" height="324">
+            <h1>Muhammed Mehdi Asiltürk</h1>
+            <h5>Web Developer – Web Designer</h5>
+            <p>
+                Ben Muhammed Mehdi Asiltürk.21 Yaşındayım.Iğdırlıyım ve ığdırda yaşamaktayım. Iğdır Teknik Bilimler Meslek Yüksekokulunda okumaktayım.
+                Hedeflerim Siber Güvenlik Uzmanı olmak. 
+                Html ve CSS ileri seviyede bilmekteyim.Linux gibi işletim sistemlerini temel düzeyde kullanabilmekteyim. C#ve Pythonda temel düzeyde bilgim var.
+            </p>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>                
+            </ul>
+            
+        </div>
+
+        <!-- ============ About Us ============= -->
+
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>Hakımızda</h1>
+                    <div class="fa fa-cutlery fa-2x"></div>
+                    <p class="desc-text">Ben Muhammed Mehdi Asiltürk.21 Yaşındayım.Iğdırlıyım ve ığdırda yaşamaktayım.
+                        Iğdır Teknik Bilimler Meslek Yüksekokulunda okumaktayım.Hedeflerim Siber Güvenlik Uzmanı olmak.
+                        Html ve CSS ileri seviyede bilmekteyim.Linux gibi işletim sistemlerini temel düzeyde kullanabilmekteyim.
+                        C#ve Pythonda temel düzeyde bilgim var.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="images/kabob.jpg" width="250" height="220">
+                       <img src="images/limes.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img src="images/radish.jpg"  width="250" height="220">
+                       <img src="images/corn.jpg"  width="250" height="220">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Pricing  ============= -->
+
+
+        <section id ="pricing" class="description_content">
+             <div class="pricing background_content">
+                <h1><span>Programlama</span> dilleri</h1>
+             </div>
+            <div class="text-content container"> 
+                <div class="container">
+                    <div class="row">
+                        <div id="w">
+                            <ul id="filter-list" class="clearfix">
+                                <li class="filter" data-filter="all">Tümü</li>
+                                <li class="filter" data-filter="breakfast">Siber Güvenlik</li>
+                                <li class="filter" data-filter="special">Programla dilleri</li>
+                                <li class="filter" data-filter="desert">Kitaplarımız</li>
+                                <li class="filter" data-filter="dinner">Eğitim Platformları</li>
+                            </ul><!-- @end #filter-list -->    
+                            <ul id="portfolio">
+                                <li class="item breakfast"><img src="images/food_icon01.jpg" alt="Food" >
+                                    <h2 class="white">Linux</h2>
+                                </li>
+
+                                <li class="item dinner special"><img src="images/food_icon02.jpg" alt="Food" >
+                                    <h2 class="white">C#</h2>
+                                </li>
+                                <li class="item dinner breakfast"><img src="images/food_icon03.jpg" alt="Food" >
+                                    <h2 class="white">Python</h2>
+                                </li>
+                                <li class="item special"><img src="images/food_icon04.jpg" alt="Food" >
+                                    <h2 class="white">Python</h2>
+                                </li>
+                                <li class="item dinner"><img src="images/food_icon05.jpg" alt="Food" >
+                                    <h2 class="white">$20</h2>
+                                </li>
+                                <li class="item special"><img src="images/food_icon06.jpg" alt="Food" >
+                                    <h2 class="white">C++</h2>
+                                </li>
+                                <li class="item desert"><img src="images/food_icon07.jpg" alt="Food" >
+                                    <h2 class="white">$32</h2>
+                                </li>
+                                <li class="item desert breakfast"><img src="images/food_icon08.jpg" alt="Food" >
+                                    <h2 class="white">siber güvenlik</h2>
+                                </li>
+                            </ul><!-- @end #portfolio -->
+                        </div><!-- @end #w -->
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+
+        <!-- ============ Our Beer  ============= -->
+
+
+        
+
+
+       <!-- ============ Our Bread  ============= -->
+
+
+        <section id="bread" class=" description_content">
+            <div  class="bread background_content">
+                <h1>Siber <span>Güvenlik</span></h1>
+            </div>
+            
+        </section>
+
+
+        
+        <!-- ============ Featured Dish  ============= -->
+
+       
+
+        <!-- ============ Reservation  ============= -->
+
+        
+
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">Takip</span>
+                    <ul class="social_icons">
+                        <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-github color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-linkedin color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-mail color_animation" href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <span class="social_heading">İletişim</span>
+                    <span class="social_info"><a class="color_animation" href="tel:883-335-6524">(941) 883-335-6524</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="contact">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d909.8055829548118!2d44.05227747402064!3d39.914338532411634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406b20d2f8348b2f%3A0x6dbc5ed0a25f8f82!2zMznCsDU0JzUxLjQiTiA0NMKwMDMnMDYuMCJF!5e0!3m2!1str!2str!4v1675359804032!5m2!1str!2str" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-24">
+                        <div class="inner contact">
+                            <!-- Form Area -->
+                            <div class="contact-form">
+                                <!-- Form -->
+                                <form id="contact-us" method="post" action="contact.php">
+                                    <!-- Left Inputs -->
+                                    <div class="col-md-24 ">
+                                        <!-- Name -->
+                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="İsim" />
+                                        <!-- Email -->
+                                        <input type="email" name="email" id="email" required="required" class="form" placeholder="Mail Adresi" />
+                                        <!-- Subject -->
+                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Konu" />
+                                    </div><!-- End Left Inputs -->
+                                    <!-- Right Inputs -->
+                                    <div class="col-md-6">
+                                        <!-- Message -->
+                                        <textarea name="message" id="message" class="form textarea"  placeholder="Mesaj"></textarea>
+                                    </div><!-- End Right Inputs -->
+                                    <!-- Bottom Submit -->
+                                    <div class="relative fullwidth col-xs-12">
+                                        <!-- Send Button -->
+                                        <button type="submit" id="submit" name="submit" class="form-btn">Gönder</button> 
+                                    </div><!-- End Bottom Submit -->
+                                    <!-- Clear -->
+                                    <div class="clear"></div>
+                                </form>
+                            </div><!-- End Contact Form Area -->
+                        </div><!-- End Inner -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; Mehdi 2023, Mehdi Asiltürk by <a href="https://themewagon.com/">ThemeWagon</a></p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Back to <a href="#top">Yukarı</a></p>
+                </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Benim tarafımdan yapıldı <a href="#" target="_blank">TR</a></p></div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
+</html>
